@@ -1,0 +1,53 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_POT RV?
+U 1 1 5CFD1919
+P 2700 4650
+F 0 "RV?" H 2631 4696 50  0000 R CNN
+F 1 "R_POT" H 2631 4605 50  0000 R CNN
+F 2 "" H 2700 4650 50  0001 C CNN
+F 3 "~" H 2700 4650 50  0001 C CNN
+	1    2700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L eurocad:PJ301M-12 J?
+U 1 1 5CFD2939
+P 1650 4300
+F 0 "J?" H 1658 4675 50  0000 C CNN
+F 1 "PJ301M-12" H 1658 4584 50  0000 C CNN
+F 2 "" H 1650 4300 50  0000 C CNN
+F 3 "" H 1650 4300 50  0000 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L eurocad:EURO_PWR_2x5 J?
+U 1 1 5CFD4C5B
+P 2950 2400
+F 0 "J?" H 2950 2847 60  0000 C CNN
+F 1 "EURO_PWR_2x5" H 2950 2741 60  0000 C CNN
+F 2 "" H 2950 2400 60  0000 C CNN
+F 3 "" H 2950 2400 60  0000 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4400 2700 4400
+Wire Wire Line
+	2700 4400 2700 4500
+$EndSCHEMATC

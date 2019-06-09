@@ -1,0 +1,3 @@
+[submodule "ms20_filter/libraries/eurocad"]
+	path = ms20_filter/libraries/eurocad
+	url = https://github.com/nebs/eurocad
